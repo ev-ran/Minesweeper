@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minesweeper</title>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <main>
+        <div id='tablo'>
+            <div id='frame'>
+                <div class="timer">
+                    <span id="min">00</span><span>:</span><span id="sec">00</span>
+                </div>
+                <div id="rozha"></div>
+                <div class="timer">
+                    <span id="num_of_mines">00</span><span>:</span><span id="steps">000</span>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div id="game_field">
+
+        </div>
+
+        <div id="footer">
+            <div id="f_frame">
+           
+            <a href="JavaScript: location.reload(true);">New game</a>
+        </div>
+        </div>
+    </main>
+
+       <script src="./Classes/PlayDesk.js"></script>
+    <script src="./Classes/Timer.js"></script>
+
+    <script src="./main.js"></script>
+
+</body>
+
+</html>
