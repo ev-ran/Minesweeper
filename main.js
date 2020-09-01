@@ -123,7 +123,6 @@ function check_buttons_with_mines() {
     }
 
 }
-
 //==variant-LOSE.===Unveil all mines
 function unveil_mine(x, y) {
     console.log("hi from unveil");
