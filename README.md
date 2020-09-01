@@ -15,6 +15,7 @@ game  published at:    https://ev-ran.github.io/Minesweeper/
 * Left-clicking a mine loses the game and reveals all other mine locations.
 * Game wins when all non-mined cells were revealed, and all cells with mines are flagged or not touched.
   If win - all cells with mine will be flagged.
+* Timer, number of mines, number of current step are shown on game display.
 * Timer counts seconds since first interaction -  until WIN or LOS result.
 * Reset / start new game.
 
